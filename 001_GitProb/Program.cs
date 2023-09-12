@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int a = 2;
+            int a = int.Parse(Console.ReadLine());
+            int b = 3;
             Console.WriteLine($"{a}*{a}={a+a}");
             Console.WriteLine("Hello, World!");
             Console.ReadKey();

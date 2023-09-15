@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _001_GitProb
 {
-    internal class Logic
+    public class Logic
     {
-        public int PowerOf2(int a)
+        public static int PowerOf2(int a)
         {
             return a * a;
         }
